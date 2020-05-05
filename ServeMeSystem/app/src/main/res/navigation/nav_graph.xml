@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.servemesystem.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_FirstFragment_to_customerActivity"
+            app:destination="@id/customerActivity" />
+        <action
+            android:id="@+id/action_FirstFragment_to_vendorHome"
+            app:destination="@id/vendorHome" />
+    </fragment>
+    <activity
+        android:id="@+id/customerActivity"
+        android:name="com.example.servemesystem.CustomerActivity"
+        android:label="activity_customer"
+        tools:layout="@layout/activity_customer" />
+    <activity
+        android:id="@+id/vendorHome"
+        android:name="com.example.servemesystem.VendorHome"
+        android:label="activity_vendor_home"
+        tools:layout="@layout/activity_vendor_home" />
+    <fragment
+        android:id="@+id/customerManageServiceRequests"
+        android:name="com.example.servemesystem.CustomerManageServiceRequests"
+        android:label="fragment_customer_manage_service_requests"
+        tools:layout="@layout/fragment_customer_manage_service_requests" />
+</navigation>

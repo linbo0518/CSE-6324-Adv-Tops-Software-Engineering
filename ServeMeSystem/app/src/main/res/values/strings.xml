@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">ServeMe</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Registration</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">ServeMe</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Card Labels-->
+    <string name="cardDescriptionLbl">Description</string>
+    <string name="cardNotesLbl">Notes</string>
+    <string name="cardLocationTxt">Location</string>
+
+    <!-- Registration Activity -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="login">Login</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--    Vendor Drawer Options-->
+    <string name="menu_item_vendor_bid_service_requests">Bid on Service Requests</string>
+    <string name="menu_item_vendor_manage_service_requests">Manage Service Requests</string>
+    <string name="menu_item_vendor_profile">Profile</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+    <string name="base_header">Base</string>
+
+    <!-- Admin Activity -->
+    <string name="admin_heading">Admin Home</string>
+
+    <!-- Base Preferences -->
+    <string name="sound">Sound</string>
+    <string name="receive_communication">Receive communication</string>
+    <string name="use_points">Use points toward a service</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="settings">Settings</string>
+    <string name="save">save</string>
+    <string name="notification_header">Notification</string>
+    <string name="service_header">Service</string>
+    <string name="save_settings">Settings saved.</string>
+
+    <!--    Manage Pending Requests-->
+    <string name="manage_pending_requests_toolbar_title">Pending Requests</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="regInitials">Initials</string>
+    <string name="regCred">Credentials</string>
+    <string name="submit_button">Submit</string>
+
+    <string name="navigation_drawer_open"> Open Navigation Drawer </string>
+    <string name="navigation_drawer_close"> Close Navigation Drawer </string>
+    <string name="regAddress">Address</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="pinCode">PinCode</string>
+    <string name="userType">User Type</string>
+    <string name="userType_customer">Customer</string>
+    <string name="userType_vendor">Vendor</string>
+    <string name="vendor">Vendor</string>
+    <string name="regServices">Services</string>
+    <string name="services">Choose Category</string>
+    <string name="sampleRate">Sample Rates</string>
+    <string name="tasks">Tasks</string>
+    <string name="consent">Agree to pay 20% of the amount to ServeMe</string>
+
+    <string name="theme_name_hint">Theme name...</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <!--Main-->
+    <string name="tab_title_instructions">Instructions</string>
+    <string name="tab_title_components">Components</string>
+    <string name="tab_title_theme_summary">Theme summary</string>
+
+    <!--Instructions-->
+    <string name="instructions_how_to">Build your own custom Material Theme by remixing and styling these themeable components.\n\nModify the variables in your project\'s color.xml, type.xml and shape.xml files to see your custom styles cascade through Material Components for Android.</string>
+    <string name="instructions_how_to_title">How to use theme builder</string>
+    <string name="instructions_options_title">Theme builder options</string>
+    <string name="instructions_enable_dark_title">Enable dark theme</string>
+
+    <!--Component-->
+    <string name="text_headline_6">Headline 6</string>
+    <string name="text_body_2">Body 2</string>
+    <string name="text_button">Button</string>
+    <string name="text_overline">Overline</string>
+
+    <string name="button_label_title">Button</string>
+    <string name="button_left_button_label">Left</string>
+    <string name="button_center_button_label">Center</string>
+    <string name="button_right_button_label">Right</string>
+
+    <string name="fab_label_title">FAB</string>
+
+    <string name="card_label_title">Card</string>
+
+    <string name="chip_label_title">Chips</string>
+    <string name="chip_action_title">Action</string>
+    <string name="chip_filter_title">Filter</string>
+    <string name="chip_choice_title">Choice</string>
+    <string name="chip_entry_title">Entry</string>
+
+    <string name="top_app_bar_label_title">Top app bar</string>
+    <string name="app_bar_menu_share">Share</string>
+    <string name="app_bar_menu_search">Search</string>
+    <string name="app_bar_menu_bookmark">Bookmark</string>
+
+    <string name="drawer_label_title">Drawer</string>
+
+    <string name="text_field_label_title" description="Label text for a text field [CHAR LIMIT=50]">Text field</string>
+    <string name="text_field_hint_text">Label</string>
+
+    <string name="bottom_nav_label_title">Bottom navigation</string>
+    <string name="bottom_nav_favorites_title">Favorites</string>
+    <string name="bottom_nav_music_title">Music</string>
+    <string name="bottom_nav_places_title">Places</string>
+    <string name="bottom_nav_news_title">News</string>
+
+    <string name="switch_label_title">Switch</string>
+
+    <string name="radio_button_label_title">Radio button</string>
+
+    <string name="checkbox_label_title">Checkbox</string>
+
+    <string name="bottom_app_bar_label_title">Bottom app bar</string>
+
+    <string name="tabs_label_title">Tabs</string>
+
+    <string name="snackbar_label_title">Snackbar</string>
+    <string name="snackbar_message_text">Marked as favorite</string>
+    <string name="snackbar_action_text">Action</string>
+
+    <string name="dialog_label_title">Dialog</string>
+    <string name="dialog_button_label">Show dialog</string>
+
+    <string name="bottom_sheet_label_title">Bottom sheet</string>
+    <string name="bottom_sheet_button_label">Show bottom sheet</string>
+
+
+    <!--Theme Summary-->
+    <string name="label_color_scheme_title">Color scheme</string>
+
+    <string name="label_shape_system_title">Shape system</string>
+    <string name="shape_appearance_small_label">S</string>
+    <string name="shape_appearance_medium_label">M</string>
+    <string name="shape_appearance_large_label">L</string>
+
+    <string name="label_typography_scale_title">Typography scale</string>
+    <string name="text_appearance_h1_label">H1</string>
+    <string name="text_appearance_h2_label">H2</string>
+    <string name="text_appearance_h3_label">H3</string>
+    <string name="text_appearance_h4_label">H4</string>
+    <string name="text_appearance_h5_label">H5</string>
+    <string name="text_appearance_h6_label">H6</string>
+    <string name="text_appearance_subtitle_1_label">Subtitle 1</string>
+    <string name="text_appearance_subtitle_2_label">Subtitle 2</string>
+    <string name="text_appearance_body_1_label">Body 1</string>
+    <string name="text_appearance_body_2_label">Body 2</string>
+    <string name="text_appearance_button_label">Button</string>
+    <string name="text_appearance_caption_label">Caption</string>
+    <string name="text_appearance_overline_label">Overline</string>
+    <string name="searchAddressText">Address</string>
+    <string name="app_bar_menu_filter">Filter</string>
+</resources>

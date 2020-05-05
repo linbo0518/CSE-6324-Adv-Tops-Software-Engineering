@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ServiceDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/detail_category_label"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="Category"
+                android:textColor="@color/color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/detail_category_name"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:background="@drawable/input_border"
+                android:focusable="false"
+                android:padding="8dp"
+                android:text="Category Name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/detail_date_label"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Date"
+                android:textColor="@color/color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detail_category_label" />
+
+            <LinearLayout
+                android:id="@id/detail_date_bundle"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detail_category_name">
+
+                <EditText
+                    android:id="@+id/detail_date_input"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/input_border"
+                    android:focusable="false"
+                    android:padding="8dp"
+                    android:text="March/04/2020" />
+
+                <ImageButton
+                    android:id="@+id/detail_date_picker"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="6dp"
+                    android:background="@drawable/gradient_primary"
+                    app:srcCompat="@drawable/ic_date_picker_24dp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/detail_time_label"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Time"
+                android:textColor="@color/color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detail_date_label" />
+
+            <LinearLayout
+                android:id="@+id/detail_time_bundle"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detail_date_bundle">
+
+                <EditText
+                    android:id="@+id/detail_time_input"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/input_border"
+                    android:focusable="false"
+                    android:padding="8dp"
+                    android:text="10:00" />
+
+                <ImageButton
+                    android:id="@+id/detail_time_picker"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="6dp"
+                    android:background="@drawable/gradient_primary"
+                    app:srcCompat="@drawable/ic_time_picker_24dp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/detail_location_label"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Location"
+                android:textColor="@color/color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detail_time_label" />
+
+            <EditText
+                android:id="@+id/detail_location_input"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input_border"
+                android:hint="Location"
+                android:inputType="textCapSentences|textMultiLine"
+                android:padding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detail_time_bundle" />
+
+            <TextView
+                android:id="@+id/detail_title_label"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Title"
+                android:textColor="@color/color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detail_location_label" />
+
+            <EditText
+                android:id="@+id/detail_title_input"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input_border"
+                android:hint="Title"
+                android:inputType="textCapSentences|textMultiLine"
+                android:padding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detail_location_input" />
+
+            <TextView
+                android:id="@+id/detail_description_label"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Description"
+                android:textColor="@color/color_primary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detail_title_label" />
+
+            <EditText
+                android:id="@+id/detail_description_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_border"
+                android:gravity="top"
+                android:hint="Description"
+                android:inputType="textCapSentences|textMultiLine"
+                android:minLines="6"
+                android:padding="8dp"
+                android:scrollbars="vertical"
+                app:layout_constraintTop_toBottomOf="@+id/detail_description_label" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/detail_cancel_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/gradient_primary"
+                    android:text="Cancel" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/detail_submit_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/gradient_primary"
+                    android:text="Submit" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
